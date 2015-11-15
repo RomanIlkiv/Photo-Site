@@ -1,0 +1,563 @@
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+.head {
+    background-color: #fff;
+    border: 0;
+    margin-bottom: 0;
+}
+
+#linku #golubi {
+    padding-top: 20px;
+    height: 97px;
+    cursor: pointer;
+}
+
+#linku li a {
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #292b2e;
+}
+
+#linku #golubi:hover {
+    background: #f8f9fb;
+    border-bottom: 3px solid #49cbcd;
+}
+
+#linku #golubi:hover a {
+    color: #49cbcd;
+}
+
+#roman {
+    font-family: "Lobster", cursive;
+    font-size: 43px;
+    color: #44c0c2;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#roman:hover {
+    transform: scale(1.1);
+    transition: 0.5s ease;
+}
+
+#napus {
+    padding: 0;
+    margin-top: 20px;
+}
+
+.navbar-toggle {
+    background-color: #49cbcd;
+    margin-right: 10px;
+}
+
+.navbar-toggle:hover {
+    background-color: red;
+}
+
+
+#linku_xs {
+  margin-top: -10px;
+    padding-top: 10px;
+}
+
+#linku_xs li a{
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    color: #292b2e;
+}
+
+ #linku_xs #golubi_xs:hover {
+    background: #f8f9fb;
+    border-bottom: 3px solid #49cbcd;
+}
+
+ #linku_xs #golubi_xs:hover a{
+     color: #44c0c2;
+ }
+
+#golubi_xs {
+    display: inline-block;
+    height: 40px;
+}
+
+#vupad {
+    text-align: center;
+}
+
+.h1 {
+    margin-top: -250px; 
+    font-size: 57px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+.p_slaider {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.more {
+    font-size: 23px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 10px 30px 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -100px;
+}
+
+.more:hover, .more_xs:hover  {
+    color: aqua;
+    border: 2px solid aqua;
+    text-decoration: none;
+}
+
+
+.more_xs {
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #fff;
+    border-radius: 6px;
+    margin: 0 auto;
+    margin-bottom: -20px;
+    width: 130px;
+}
+
+.p_xs {
+    font-size: 15px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    margin-top: -25%;
+}
+
+#slaider {
+    padding-top: -5px;   
+}
+
+#indicarors {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0px;
+    margin-left: -30%;
+    text-align: center;
+    list-style: outside none none;
+}  
+
+#indicators li {
+    margin-bottom: -50px;
+    margin: 0px 0px -50px 5px !important;
+    border: medium none !important;
+    border-radius: 0px !important;
+    height: 7px !important;
+    width: 62px !important;
+    background: #44c0c2;
+}
+
+#indicators li.active {
+    background: black;
+}
+
+/*_________________________________БЛОКИ З КАРТИНКАМИ________________________________*/
+#blocku {
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
+
+.stattya {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.stattya h2 {
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: #4e525d;
+    line-height: 40px;
+}
+
+.stattya p {
+    color: #4e525d;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 28px;
+    overflow: hidden;
+}
+
+.stattya a, #portfolio a {
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    background-color: #49cbcd;
+    padding: 7px 9px 7px 9px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.stattya a:hover, #portfolio a:hover {
+    background-color: #44eded;
+}
+
+#designs {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/*___________________________PORTFOLIO__________________________________*/
+#portfolio {
+    background: #f1f1f1;
+    padding-bottom: 60px;
+}
+
+.zagolowok {
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    color: #4e525d;
+    margin-bottom: 20px;
+}
+
+.img_port {
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.img_port:hover {
+    transform: scale(1.13);
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+#portfolio #rivn {
+    margin-top: 20px;
+}
+
+
+.knop {
+    text-align: right;
+    float: left;
+    margin-top: 20px;
+    margin-right: 0 auto;
+}
+
+#knop_sm {
+    margin-left: 310px;   
+}
+
+#knop_md {
+    margin-left: 415px;   
+}
+
+#knop_lg {
+    margin-left: 515px;   
+}
+/*_____________________________________________THE TEAM_____________________________________________*/
+
+.photo {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.photo img {
+    width: 200px;
+    height: 200px;
+    margin-top: 60px;
+}
+
+.employee {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    margin-top: 40px;
+    color: #4e525d;
+    margin-bottom: 0;
+}
+
+.opus {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #4e525d;
+    margin-top: 0;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+/*______________________________ТАБЛИЦІ_____________________________________*/
+#tabluci {
+    background-color: #f1f1f1;
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+#tabluci table {
+    margin-right: 33px;
+    margin-top: 40px;
+}
+
+#tabluci table th {
+    text-align: center;
+    background-color: #485460;
+    color: #fff;
+    padding: 20px;
+    font-size: 26px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.price {
+    background-color: #f8f9fb;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    padding: 18px;
+    color: #485460;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+table tr td {
+    background: #fff;
+    border-bottom: 1px solid #ecf0f1;
+    text-align: center;
+    color: #8c9299;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    padding: 10px;
+}
+
+.buy_now {
+    background-color: #f8f9fb;   
+}
+
+.buy_now a {
+    font-size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    background-color: #788492;
+    padding: 10px 30px 10px 30px;
+    border-radius: 5px;
+    margin: 30px;
+    line-height: 70px;
+    text-decoration: none;
+}
+
+#navid:hover #navid_th, #navid:hover .buy_now a {
+    background-color: #49cbcd;
+    transition: 0.4s ease;
+}
+/*__________________________________________КОМЕНТАРІ!!!!!!!_____________________________________*/
+
+#cutatu {
+    background-color: white;
+    padding-top: 100px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+#cutatu h1 {
+    font-size: 42px;
+    font-family: "Open Sans", sans-serif;
+    color: #4e525d;
+    margin-bottom: 30px;
+}
+
+#cutatu p {
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+    color: #4e525d;
+}
+
+#cutatu .author {
+    font-size: 21px;
+    font-family: "Open Sans", sans-serif;
+    color: #9a8faf;
+}
+
+#liva, #prava {
+    font-size: 30px;
+    color: #8d8d8d;
+    cursor: pointer;
+    margin-top: -150px;
+    padding: 10px;
+}
+
+#liva:hover, #prava:hover {
+    color: black;
+    background: rgba(128, 128, 128, 0.66);
+    
+}
+
+#liva {
+    float: left;
+    margin-left: 70px;
+}
+
+#prava {
+    float: right;
+    margin-right: 70px;
+}
+/*_____________________________________________CONTACT____________________________________*/
+
+#contact {
+    background-image: url(../img/footer.jpg);
+    padding-bottom: 100px;
+}
+
+#contact h1 {
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 42px;
+    color: #fff;
+    padding-top: 90px;
+    margin-bottom: 90px;
+}
+
+#social h3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #fff;   
+}
+
+#social p {
+    color: #adadad;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#social img {
+    margin: 20px 10px 20px 0;   
+}
+
+#social .fiol {
+    color: #bface2;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+#form {
+    margin-top: 20px;   
+}
+
+#form .verhni {
+    width: 255px;
+    margin-bottom: 25px;
+    padding: 7px;
+    padding-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#form .verhni:first-child {
+    margin-right: 20px;   
+}
+
+#form textarea {
+    padding: 7px;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 15px;
+    border-radius: 5px;
+    border: 0;
+    resize: none;
+}
+
+#form #button {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 22px;
+    padding: 10px 60px 10px 60px;
+    background: #49cbcd;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    float: right;
+    margin-right: 22px;
+}
+
+#form #button:hover {
+    background-color: #44eded;   
+}
+/*________________MD SCREEN_____________*/
+#form .verhni_md {
+    width: 214px;
+    margin-bottom: 25px;
+    padding: 7px;
+    padding-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#form .verhni_md:first-child {
+    margin-right: 20px;   
+}
+
+#form #button_md {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 22px;
+    padding: 10px 60px 10px 60px;
+    background: #49cbcd;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 25px;
+    float: right;
+    margin-right: 3px;
+}
+
+#form #button_md:hover {
+    background-color: #44eded;
+    transition: 0.3s;
+}
+
+
+/*_____________________SM SCREEN________________________________________*/
+#form .verhni_sm {
+    width: 234px;
+    margin-bottom: 17px;
+    padding: 7px;
+    padding-left: 15px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 0;
+}
+
+#form .verhni_md:first-child {
+    margin-right: 20px;   
+}
+
+#form #button_sm {
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 22px;
+    padding: 10px 60px 10px 60px;
+    background: #49cbcd;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 17px;
+    float: right;
+    margin-right: 4px;
+}
+
+#form #button_sm:hover {
+    background-color: #44eded;
+    transition: 0.3s;
+}
